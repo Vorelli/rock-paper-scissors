@@ -4,9 +4,9 @@ function play() {
     let computerChoice = computerPlay();
     let playerChoice;
     while(playerChoice==null || choices.indexOf(playerChoice) == -1){
-        playerChoice = prompt("Rock, Paper, Scissors\nWhat do you choose?").toLowerCase();
+        playerChoice = prompt("Rock, Paper, Scissors\nWhat do you choose?");
         if(playerChoice!=null && playerChoice!=undefined && playerChoice!='')
-            playerChoice = playerChoice[0].toUpperCase() + playerChoice.substring(1,);
+            playerChoice = playerChoice[0].toUpperCase() + playerChoice.substring(1,).toLowerCase();
     }
 
     console.log("You chose " + playerChoice + " and the computer chose " + computerChoice + ".");
