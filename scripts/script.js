@@ -3,9 +3,10 @@ let computerPlay = () => choices[Math.floor(Math.random()*3)];
 function play() {
     let computerChoice = computerPlay();
     let playerChoice;
-    while(choices.indexOf(playerChoice) == -1){
+    while(playerChoice==null || choices.indexOf(playerChoice) == -1){
         playerChoice = prompt("Rock, Paper, Scissors\nWhat do you choose?").toLowerCase();
-        playerChoice = playerChoice[0].toUpperCase() + playerChoice.substring(1,);
+        if(playerChoice!=null && playerChoice!=undefined && playerChoice!='')
+            playerChoice = playerChoice[0].toUpperCase() + playerChoice.substring(1,);
     }
 
     console.log("You chose " + playerChoice + " and the computer chose " + computerChoice + ".");
