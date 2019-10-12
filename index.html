@@ -1,3 +1,50 @@
-<body>
-    <script src='scripts/script.js' type='text/javascript'></script>
-</body>
+<html>
+    <head>
+        <link href='styles/style.css' type='text/css' rel='stylesheet'>
+    </head>
+    <body>
+        <div id="PlayArea">
+            <div id="VersusArea"><!--Player vs Computer Div-->
+                <div id='VersusAreaTopBlank'></div>
+                <div id="PlayerAndComputerArea">
+                <table>
+                    <tr>
+                        <td class='OuterMostColumns'></td>
+                        <td id='PlayerDisplay'>Here</td>
+                        <td></td>
+                        <td id='ComputerDisplay'>?</td>
+                        <td class='OuterMostColumns'></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Versus</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Player</td>
+                        <td></td>
+                        <td>Computer</td>
+                        <td></td>
+                    </tr>
+                </table>
+                </div>
+                <div id="Results"></div>
+            </div>
+            <div id="SelectionArea"><!--Buttons Div-->
+                <div id="SelectionAreaLeftBlank"></div>
+                <button type="button" data-choice="Rock">Rock</button>
+                <button data-choice="Paper">Paper</button>
+                <button data-choice="Scissors">Scissors</button>
+            </div>
+            <div id="ScoreTracker">
+                <span id="GamesPlayed">Games Played: 0</span>
+                <span id="Score">Score: 0</span>
+            </div>    
+            
+        </div>
+        <script src='scripts/script.js' type='text/javascript'></script>
+    </body>
+</html>

@@ -1,0 +1,109 @@
+#PlayArea {
+    display:block;
+    max-width: 500px;
+    height: 300px;
+}
+
+#VersusArea {
+    display:block;
+    height:200px;
+    text-align:center;
+}
+
+#VersusAreaTopBlank {
+    display:block;
+    height: 40px;
+}
+
+#PlayerDisplay {
+    width:100px;
+    height:100px;
+}
+
+#ScoreTracker {
+    display:block;
+    width:500px;
+    text-align:center;
+}
+
+#ComputerDisplay {
+    width:100px;
+    height:100px;
+}
+
+.Player {
+    padding: 0px 10px 0px 0px;
+}
+
+.Computer {
+    padding: 0px 0px 0px 10px;
+}
+
+#SelectionArea {
+    float:left;
+    width:100%;
+    height:50px;
+    text-align:center;
+    padding-left: 130px;
+    padding-top: 30px;
+}
+
+#PlayArea div {
+    display:inline-block;
+    
+}
+
+#SelectionArea button {
+    float:left;
+    width:80px;
+}
+
+.VersusLeftBlank {
+    width: 200px;
+}
+
+#SelectionAreaLeftBlank {
+    float:left;
+    width: 130px;
+}
+
+.PlayerAndComputerDisplay {
+    width:00px;
+}
+
+.PlayerCompArea {
+    display:block;
+    width:250px;
+}
+
+#PlayerAndComputerArea table tr td {
+    column-width:100px;
+    width:100px;
+    text-align:center;
+    padding:0px;
+    margin:0px;
+    border:0px;
+    border-spacing: 0px;
+    vertical-align: middle;
+}
+
+.OuterMostColumns {
+    column-width:100px;
+    width:100px;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse:collapse;
+    width:500px;
+}
+
+tr {
+    width:500px;
+}
+
+#Results {
+    padding-top:10px;
+    height:50px;
+    vertical-align:middle;
+}
